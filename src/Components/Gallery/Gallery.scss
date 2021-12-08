@@ -1,0 +1,10 @@
+.galary_img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.galary_img:hover {
+	opacity: 0.6;
+}

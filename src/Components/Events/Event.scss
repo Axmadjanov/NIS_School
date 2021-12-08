@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.imageStyle {
+	width: 100%;
+}
+.imageStyle img {
+	width: 150px;
+	height: 100px;
+}
+.containerImage {
+	margin-top: -30px;
+	width: 100%;
+	text-align: center;
+}
+.topCenter {
+	width: 100%;
+	height: auto;
+}
+
+.topCenter label {
+	cursor: pointer;
+}
+.topCenter Button {
+	margin: 10px;
+}
+
+.topCenter Button:focus {
+	cursor: pointer;
+	background-color: rgb(120, 0, 181);
+	outline: 1px solidrgb(120, 0, 181);
+	color: #fff;
+}
+.photoGalary {
+	width: 100%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 230px;
+}
+.photoGalary:last-of-type {
+	margin-bottom: 280px;
+}
+#check1,
+#check2,
+#check3,
+#check4 {
+	visibility: hidden;
+}
+
+.pic {
+	position: relative;
+	height: 230px;
+}
+.pic .eventCard {
+	width: 100%;
+	height: auto;
+}
+.pic:hover::after {
+	height: 100%;
+}
+.pic:hover::before {
+	margin-top: 0;
+	opacity: 1;
+}
+
+#check1:checked ~ .containerImage .photoGalary .pic {
+	opacity: 1;
+	transform: scale(1);
+	position: relative;
+	transition: 0.5s;
+}
+#check2:checked ~ .containerImage .photoGalary .happen {
+	transform: scale(1);
+	opacity: 1;
+	position: relative;
+	transition: 0.5s;
+}
+#check2:checked ~ .containerImage .photoGalary .upcome,
+#check2:checked ~ .containerImage .photoGalary .expired {
+	opacity: 0;
+	transform: scale(0);
+	position: absolute;
+}
+#check1:checked ~ .containerImage .photoGalary .pic {
+	opacity: 1;
+	transform: scale(1);
+	position: relative;
+	transition: 0.5s;
+}
+#check3:checked ~ .containerImage .photoGalary .upcome {
+	transform: scale(1);
+	opacity: 1;
+	position: relative;
+	transition: 0.5s;
+}
+#check3:checked ~ .containerImage .photoGalary .happen,
+#check3:checked ~ .containerImage .photoGalary .expired {
+	opacity: 0;
+	transform: scale(0);
+	position: absolute;
+}
+#check1:checked ~ .containerImage .photoGalary .pic {
+	opacity: 1;
+	transform: scale(1);
+	position: relative;
+	transition: 0.5s;
+}
+#check4:checked ~ .containerImage .photoGalary .expired {
+	transform: scale(1);
+	opacity: 1;
+	position: relative;
+	transition: 0.5s;
+}
+#check4:checked ~ .containerImage .photoGalary .happen,
+#check4:checked ~ .containerImage .photoGalary .upcome {
+	opacity: 0;
+	transform: scale(0);
+	position: absolute;
+}
+@media only screen and(min-width:800px) {
+	.photoGalary {
+		width: 90%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 170px;
+		grid-column-gap: 15px;
+	}
+	.photoGalary:last-of-type {
+		margin-bottom: 230px;
+	}
+}

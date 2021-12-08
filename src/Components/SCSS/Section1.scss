@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(7, 7, 19, 0.726);
+}
+
+.homepage {
+	width: 100%;
+	background-image: url(../images/banner/banner2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	transition: 30s;
+
+	animation-name: animate;
+	animation-direction: alternate-reverse;
+	animation-duration: 15s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease;
+}
+
+@keyframes animate {
+	50% {
+		background-image: url(../images/banner/banner2.jpg);
+	}
+
+	100% {
+		background-image: url(../images/banner/banner3.jpg);
+	}
+}
+
+.content_text_1 {
+	text-align: center;
+	color: white;
+	margin-top: 70px !important;
+	margin-bottom: 15px !important;
+	font-size: 15px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.content_text_2 {
+	text-align: center;
+	color: white;
+	font-weight: 900;
+	margin-bottom: 15px !important;
+	font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.content_text_3 {
+	text-align: center;
+	color: white;
+	font-size: 20px !important;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.content_btn1 {
+	padding: 13px 30px;
+	margin: 0 10px;
+	border-radius: 30px;
+	background-color: transparent;
+	border: 1px solid rgba(222, 222, 222, 0.4);
+	color: white;
+	font-weight: 700;
+}
+
+.content_btn1:hover {
+	background-color: #fff;
+	color: black;
+}
+
+.content_btn2 {
+	padding: 13px 30px;
+	margin: 0 10px;
+	border-radius: 30px;
+	background-color: rgb(95, 0, 139);
+	border: none;
+	outline: none;
+	color: white;
+	font-weight: 700;
+}
+
+.content_btn2:hover {
+	background-color: #fff;
+	color: black;
+}
+
+@media only screen and (max-width: 850px) {
+	.content_text_1 {
+		margin-top: 60px !important;
+	}
+
+	.content_text_2 {
+		font-size: 35px !important;
+	}
+
+	.content_text_3 {
+		font-size: 15px !important;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.content_text_1 {
+		font-size: 18px !important;
+		margin-top: 70px !important;
+	}
+
+	.content_text_2 {
+		font-size: 28px !important;
+	}
+
+	.content_text_3 {
+		font-size: 13px !important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.content_text_1 {
+		font-size: 14px !important;
+		margin-top: 50px !important;
+	}
+
+	.content_text_2 {
+		font-size: 20px !important;
+	}
+
+	.content_text_3 {
+		padding: 0 10px;
+		font-size: 14px !important;
+	}
+}

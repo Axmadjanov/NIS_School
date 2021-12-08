@@ -1,0 +1,46 @@
+.backTypo {
+	color: #fff;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(5, 0, 78, 0.7);
+}
+
+.CoursesPage {
+	width: 100%;
+	max-height: 40vh;
+	// margin-bottom: 30px;
+	background: url(../images/banner/banner3.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.acor {
+	margin: 5px !important;
+}
+
+@media only screen and(max-width: 700px) {
+	.questions {
+		font-size: 40px !important;
+	}
+
+	.CoursesPage {
+		background-size: 120%;
+	}
+}
+
+@media only screen and(max-width: 600px) {
+	.questions {
+		font-size: 23px !important;
+	}
+
+	.CoursesPage {
+		background-size: 140%;
+	}
+
+	.backTypo {
+		height: 30vh;
+	}
+}

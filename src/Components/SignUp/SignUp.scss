@@ -1,0 +1,63 @@
+.div {
+	margin: 20px;
+}
+
+.SignUP button {
+	font-weight: 600;
+	background-color: gold;
+	color: #111;
+}
+.SignUP button:hover {
+	background-color: rgb(120, 0, 181);
+	color: #fff;
+}
+
+.newAccount {
+	color: rgb(0, 0, 87);
+	cursor: pointer;
+	text-decoration: underline;
+}
+.loginAccount {
+	color: rgb(0, 0, 87);
+	cursor: pointer;
+	text-decoration: underline;
+}
+.school {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(120, 0, 181);
+	background: url(../images/loginBack.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.7;
+}
+
+.BackColor {
+	background-color: white;
+}
+
+.SignUpNam {
+	color: #fff;
+	height: 30vh;
+	background-size: cover;
+}
+.forgot {
+	cursor: pointer;
+	padding-left: 65px;
+}
+@media only screen and(min-width:700px) {
+	.SignUpNam {
+		height: 100vh;
+	}
+	.div {
+		margin: 0;
+		padding-top: 100px;
+		height: 100vh;
+	}
+	.forgot {
+		padding-left: 220px;
+	}
+}

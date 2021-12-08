@@ -1,0 +1,54 @@
+.navIcons {
+	color: black;
+}
+
+.nav_middle {
+	color: black;
+}
+
+.navIcons {
+	position: relative;
+	left: 50px;
+	padding: 2px;
+	color: rgb(0, 0, 0);
+	margin-right: 10px;
+	transition: 0.5s ease;
+}
+
+.navIcons:hover {
+	color: #ffa200;
+	transition: 0.5s ease;
+}
+
+.nav_middle {
+	margin: 0 13px;
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+}
+
+.nav_middle:hover {
+	color: rgb(253, 165, 0);
+}
+
+@media only screen and (max-width: 1000px) {
+	.nav_middle {
+		visibility: hidden;
+		display: none;
+	}
+
+	.navIcons {
+		position: relative;
+		left: 40px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.navbar {
+		padding-top: 8px;
+		overflow: hidden;
+	}
+
+	.MenuIcon {
+		margin-left: -6px;
+	}
+}

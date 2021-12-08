@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "3937b82e-1b5e-48bc-9326-aa7b559cd1e9",
+		"name": "Niis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "statistics",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cabinet.niis.uz/api/statistics",
+					"protocol": "https",
+					"host": [
+						"cabinet",
+						"niis",
+						"uz"
+					],
+					"path": [
+						"api",
+						"statistics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mentors",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cabinet.niis.uz/api/mentors",
+					"protocol": "https",
+					"host": [
+						"cabinet",
+						"niis",
+						"uz"
+					],
+					"path": [
+						"api",
+						"mentors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cabinet.niis.uz/api/news",
+					"protocol": "https",
+					"host": [
+						"cabinet",
+						"niis",
+						"uz"
+					],
+					"path": [
+						"api",
+						"news"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news-details",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cabinet.niis.uz/api/news-details",
+					"protocol": "https",
+					"host": [
+						"cabinet",
+						"niis",
+						"uz"
+					],
+					"path": [
+						"api",
+						"news-details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "courses",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cabinet.niis.uz/api/courses",
+					"protocol": "https",
+					"host": [
+						"cabinet",
+						"niis",
+						"uz"
+					],
+					"path": [
+						"api",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

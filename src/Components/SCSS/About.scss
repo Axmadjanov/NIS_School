@@ -1,0 +1,123 @@
+.fixedBack {
+	width: 100%;
+	background-image: url(../images/background/bg1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.backTypoFixed {
+	color: #fff;
+	height: 80vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(57, 17, 121, 0.808);
+}
+
+.colorWhite {
+	color: white;
+}
+
+.contactCard {
+	padding: 20px 15px;
+	background-color: rgb(75, 0, 104);
+}
+
+.backTypoFixed button {
+	font-weight: 600;
+	background-color: gold;
+	color: #111;
+}
+.backTypoFixed button:hover {
+	background-color: rgb(120, 0, 181);
+	color: #fff;
+}
+
+.AboutCard img {
+	width: 20%;
+	height: 20%;
+	margin-bottom: 15px;
+}
+.space {
+	word-spacing: 10px;
+	white-space: normal;
+}
+.story {
+	padding: 25px 25px 25px 25px;
+	background: #006eff0a;
+}
+
+.story button {
+	font-weight: 600;
+	background-color: gold;
+	color: #111;
+}
+
+.story button:hover {
+	background-color: rgb(120, 0, 181);
+	color: #fff;
+}
+.gridCard {
+	border-radius: 10px;
+	padding: 20px 20px 20px 60px;
+	box-shadow: 0 0 3px 0 #111;
+}
+.image {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 80px;
+	left: 250px;
+	border-radius: 50%;
+}
+.image2 {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 80px;
+	left: 280px;
+	border-radius: 50%;
+}
+
+@media only screen and(min-width:800px) {
+	.CoursesPage {
+		width: 100%;
+		height: 50vh;
+		background: url(../images/courses/pic7.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position-y: 35%;
+	}
+	.backTypo {
+		color: #fff;
+		height: 50vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(106, 0, 158, 0.7);
+	}
+	.fixedBack {
+		font-size: 20px;
+	}
+}
+
+// * Video
+
+.player-wrapper {
+	position: relative;
+	padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+//* Contacts
+.ContactIcon:hover {
+	background-color: rgb(255, 166, 0);
+	color: black !important;
+}

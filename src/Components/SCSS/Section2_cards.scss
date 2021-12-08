@@ -1,0 +1,21 @@
+.CardArea {
+	box-shadow: 0 0 20px rgba(17, 17, 17, 0.253);
+	transition: 0.7s ease;
+	margin-top: -170px;
+	background-color: #fff;
+}
+
+// @media only screen and (max-width: 600px) {
+// 	.CardArea {
+// 		margin-top: 20px;
+// 	}
+// }
+
+.CardArea:hover {
+	transition: 0.7s ease;
+	transform: translateY(-17px);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.253);
+}
+.CardArea img {
+	width: 100%;
+}

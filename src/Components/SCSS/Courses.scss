@@ -1,0 +1,49 @@
+.CourseCard {
+	height: 280px;
+	box-shadow: 0 5px 15px rgba(17, 17, 17, 0.514);
+}
+.CourseCard img {
+	width: 100%;
+	height: 55%;
+}
+.Toliq {
+	width: 150px;
+	background: red;
+	padding: 5px;
+}
+
+.backTypo1 {
+	height: 40vh;
+	color: #fff;
+	// background: url(../images/courses/pic8.jpg);
+	background-size: cover;
+}
+.backTypo2 {
+	width: 100%;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(106, 0, 158, 0.7);
+}
+.backTypo2 button {
+	color: gold;
+	border-color: gold;
+}
+.backTypo2 button:hover {
+	border-color: gold;
+}
+
+.Courses a {
+	text-decoration: none;
+	color: #111;
+}
+
+.Courses li {
+	list-style: none;
+	padding: 5px 0;
+}
+
+.Courses li:hover {
+	color: rgba(91, 0, 136, 0.904);
+}
